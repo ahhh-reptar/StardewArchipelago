@@ -41,6 +41,11 @@ namespace StardewArchipelago.Extensions
             { new WarpRequest(Game1.getLocationRequest("Custom_EnchantedGrove"), 43, 25, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_AdventurerSummit"), 8, 24, FacingDirection.Down) },
             { new WarpRequest(Game1.getLocationRequest("Forest"), 19, 110, FacingDirection.Down), new WarpRequest(Game1.getLocationRequest("Custom_JunimoWoods"), 37, 2, FacingDirection.Down) },
             { new WarpRequest(Game1.getLocationRequest("ManorHouse"), 22, 9, FacingDirection.Left), new WarpRequest(Game1.getLocationRequest("LewisBasement"), 4, 4, FacingDirection.Down) },
+            { new WarpRequest(Game1.getLocationRequest("Custom_DiamondCavern"), 17, 38, FacingDirection.Down), new WarpRequest(Game1.getLocationRequest("Custom_Highlands"), 49, 36, FacingDirection.Down) },
+            { new WarpRequest(Game1.getLocationRequest("WitchWarpCave"), 4, 5, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_ForbiddenMaze"), 39, 148, FacingDirection.Up) },
+            { new WarpRequest(Game1.getLocationRequest("Custom_ForbiddenMaze"), 141, 10, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("WitchSwamp"), 20, 42, FacingDirection.Up ) },
+            { new WarpRequest(Game1.getLocationRequest("Custom_ForbiddenMaze"), 116, 0, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_HenchmanBackyard"), 31, 39, FacingDirection.Up) },
+            { new WarpRequest(Game1.getLocationRequest("Custom_ForbiddenMaze"), 131, 11, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_HenchmanHouse"), 5, 10, FacingDirection.Up) },
         };
 
         private static readonly Dictionary<WarpRequest, WarpRequest> ExtraWarpsBothWays = ExtraWarps.Union(ExtraWarps.ToDictionary(x => x.Value, x => x.Key)).ToDictionary(x => x.Key, x => x.Value);
