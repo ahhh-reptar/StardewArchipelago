@@ -54,7 +54,7 @@ namespace StardewArchipelago.Constants.Modded
                 ModNames.SVE, new List<ContentPatcherRequirement>()
                 {
                     new(ModNames.AP_CP_SVE_PATCH, "2.1.x"),
-                    new(ModNames.AP_CP_SVE, "1.14.46"),
+                    new(ModNames.AP_CP_SVE, "1.15.11"),  //What is this for?  The version got checked already.
                 }
             },
         };

@@ -74,6 +74,10 @@ namespace StardewArchipelago.GameModifications.EntranceRandomizer
             { "Wizard Basement", "Custom_WizardBasement" },
             { "Gunther's Bedroom", "Custom_GunthersRoom" },
             { "Summit", "Custom_SVESummit" },
+            { "Diamond Cavern", "Custom_DiamondCavern" },
+            { "Forbidden Maze", "Custom_ForbiddenMaze" },
+            { "Henchman Backyard", "Custom_HenchmanBackyard" },
+            { "Henchman House", "Custom_HenchmanHouse"},
         };
 
         private static readonly Dictionary<string, string> _locationEugene = new()
