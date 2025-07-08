@@ -4211,6 +4211,126 @@
         "Digging Like Worms": {
             "code": 727722,
             "classification": "filler"
+        },
+        "Henchman <3": {
+            "code": 727723,
+            "classification": "progression"
+        },
+        "Winery": {
+            "code": 727724,
+            "classification": "progression"
+        },
+        "Butternut Squash Seeds":  {
+            "code": 727725,
+            "classification": "progression"
+        },
+        "Cucumber Seeds": {
+            "code": 727726,
+            "classification": "progression"
+        },
+        "Sweet Potato Seeds": {
+            "code": 727727,
+            "classification": "progression"
+        },
+        "Gold Carrot Seeds": {
+            "code": 727728,
+            "classification": "progression"
+        },
+        "Nectarine Sapling": {
+            "code": 727729,
+            "classification": "progression"
+        },
+        "Pear Sapling": {
+            "code": 727730,
+            "classification": "progression"
+        },
+        "Persimmon Sapling": {
+            "code": 727731,
+            "classification": "progression"
+        },
+        "Tree Coin": {
+            "code": 727732,
+            "classification": "progression"
+        },
+        "Baked Potato Recipe": {
+            "code": 727733,
+            "classification": "progression"
+        },
+        "Birch Syrup Recipe": {
+            "code": 727734,
+            "classification": "progression"
+        },
+        "Candy Recipe": {
+            "code": 727735,
+            "classification": "progression"
+        },
+        "Cheese Charcuterie Recipe": {
+            "code": 727736,
+            "classification": "progression"
+        },
+        "Chocolate Truffle Bar Recipe": {
+            "code": 727737,
+            "classification": "progression"
+        },
+        "Fish Dumpling Recipe": {
+            "code": 727738,
+            "classification": "progression"
+        },
+        "Gingerbread Man Recipe": {
+            "code": 727739,
+            "classification": "progression"
+        },
+        "Glazed Pear Recipe": {
+            "code": 727740,
+            "classification": "progression"
+        },
+        "Grilled Cheese Sandwich Recipe": {
+            "code": 727741,
+            "classification": "progression"
+        },
+        "Ice Cream Sundae Recipe": {
+            "code": 727742,
+            "classification": "progression"
+        },
+        "Nectarine Fruit Bread Recipe": {
+            "code": 727743,
+            "classification": "progression"
+        },
+        "Pineapple Custard Crepe Recipe": {
+            "code": 727744,
+            "classification": "progression"
+        },
+        "Prismatic Pop Recipe": {
+            "code": 727745,
+            "classification": "progression"
+        },
+        "Ramen Recipe": {
+            "code": 727746,
+            "classification": "progression"
+        },
+        "Stuffed Persimmon Recipe": {
+            "code": 727747,
+            "classification": "progression"
+        },
+        "Vegan Cone Recipe": {
+            "code": 727748,
+            "classification": "progression"
+        },
+        "Marsh Tonic Recipe": {
+            "code": 727749,
+            "classification": "progression"
+        },
+        "Small Hardwood Fence Recipe": {
+            "code": 727750,
+            "classification": "progression"
+        },
+        "Monster Splitter": {
+            "code": 727751,
+            "classification": "useful"
+        },
+        "Heavy Shield": {
+            "code": 727752,
+            "classification": "useful"
         }
     }
 }
