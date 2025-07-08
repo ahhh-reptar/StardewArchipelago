@@ -23933,6 +23933,90 @@
             "region": "Farm",
             "tags": ["BOOKSANITY", "BOOKSANITY_SKILL"],
             "content_packs": ["Archaeology"]
+        },
+        "Shipsanity: Wooden Display: Amber": {
+            "code": 776001,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Wooden Dispaly: Boomerang": {
+            "code": 776002,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Wooden Display: Faded Button": {
+            "code": 776003,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Wooden Display: Fossilized Apple": {
+            "code": 776004,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Wooden Display: Old Coin": {
+            "code": 776005,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Wooden Display: Rusty Shield": {
+            "code": 776006,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Wooden Display: Stone of Yoba": {
+            "code": 776007,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Hardwood Display: Amber": {
+            "code": 776008,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Hardwood Display: Boomerang": {
+            "code": 776009,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Hardwood Display: Faded Button": {
+            "code": 776010,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Hardwood Display: Fossilized Apple": {
+            "code": 776011,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Hardwood Display: Old Coin": {
+            "code": 776012,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Hardwood Display: Rusty Shield": {
+            "code": 776013,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Shipsanity: Hardwood Display: Stone of Yoba": {
+            "code": 776014,
+            "region": "Shipping",
+            "tags": ["SHIPSANITY"],
+            "content_packs": ["Archaeology", "Stardew Valley Expanded"]
         }
     }
 }
