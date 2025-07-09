@@ -52,6 +52,11 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
         public const string TRACTOR_GARAGE_ID = "Pathoschild.TractorMod_Stable";
         public const string TRACTOR_GARAGE_NAME = "Tractor Garage";
 
+        public const string SVE_ID = "FlashShifter.StardewValleyExpandedCP";
+        public const string BUILDING_WINERY = "Winery";
+        public const string BUILDING_PREMIUM_BARN = "Premium Barn";
+        public const string BUILDING_PREMIUM_COOP = "Premium Coop";
+
         public CarpenterShopStockModifier(ILogger logger, IModHelper modHelper, StardewArchipelagoClient archipelago, StardewItemManager stardewItemManager) : base(logger, modHelper, archipelago, stardewItemManager)
         {
         }
@@ -110,7 +115,12 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
             {
                 AddCheckToStock(checksToAdd, TRACTOR_GARAGE_NAME, 150_000, new[] { IronBar(20), IridiumBar(5), BatteryPack(5) });
             }
-
+            if (_archipelago.SlotData.Mods.HasMod(ModNames.SVE))
+            {
+                AddCheckToStock(checksToAdd, BUILDING_WINERY, 500_000, new[] { IridiumBar(25), Hardwood(200), Keg(30) });
+                AddCheckToStock(checksToAdd, BUILDING_PREMIUM_BARN, 250_000, new[] { FirWax(30), Hardwood(200), Stone(950) });
+                AddCheckToStock(checksToAdd, BUILDING_PREMIUM_COOP, 200_000, new[] { FirWax(20), Hardwood(125), Stone(600) });
+            }
             if (_archipelago.SlotData.IncludeEndgameLocations)
             {
                 AddCheckToStock(checksToAdd, BUILDING_PAM_HOUSE, 500_000, new[] { Wood(950) });
@@ -249,7 +259,17 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
             return ItemRegistry.Create<Object>(objectId, amount);
         }
 
-        private static Item StardewItem(string qualifiedObjectId, int amount)
+        private static Item Keg(int amount)
+        {
+            return StardewObject(12, amount);
+        }
+
+        private static Item FirWax(int amount)
+        {
+            return new Object("FlashShifter.StardewValleyExpandedCP_Fir_Wax", amount);
+        }
+
+        private static Item StardewObject(int id, int amount)
         {
             return ItemRegistry.Create(qualifiedObjectId, amount);
         }

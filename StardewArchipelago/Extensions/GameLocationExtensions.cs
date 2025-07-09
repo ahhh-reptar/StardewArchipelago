@@ -36,6 +36,7 @@ namespace StardewArchipelago.Extensions
             { new WarpRequest(Game1.getLocationRequest("Custom_EnchantedGrove"), 40, 10, FacingDirection.Down), new WarpRequest(Game1.getLocationRequest("Custom_GalmoranOutpost"), 39, 36, FacingDirection.Down) },
             { new WarpRequest(Game1.getLocationRequest("Custom_EnchantedGrove"), 40, 41, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_JunimoForest"), 31, 97, FacingDirection.Down) },
             { new WarpRequest(Game1.getLocationRequest("Custom_EnchantedGrove"), 20, 41, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_ApplesRoom"), 2, 9, FacingDirection.Down) },
+            { new WarpRequest(Game1.getLocationRequest("WitchHut"), 11, 11, FacingDirection.Right), new WarpRequest(Game1.getLocationRequest("Custom_WizardBasement"), 11, 18, FacingDirection.Down) },
             { new WarpRequest(Game1.getLocationRequest("Custom_EnchantedGrove"), 17, 25, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_WizardBasement"), 8, 18, FacingDirection.Down) },
             { new WarpRequest(Game1.getLocationRequest("Custom_EnchantedGrove"), 20, 10, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_SpriteSpring2"), 52, 20, FacingDirection.Down) },
             { new WarpRequest(Game1.getLocationRequest("Custom_EnchantedGrove"), 43, 25, FacingDirection.Up), new WarpRequest(Game1.getLocationRequest("Custom_AdventurerSummit"), 8, 24, FacingDirection.Down) },
