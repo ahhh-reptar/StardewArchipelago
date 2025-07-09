@@ -9,7 +9,7 @@ namespace StardewArchipelago.GameModifications.CodeInjections.Modded
     public class SVEConfigPatcher
     //Namespace SVE StardewValleyExpandedCP
     {
-        private const string SVE_NAMESPACE = "StardewValleyExpandedCP";
+        private const string SVE_NAMESPACE = "FlashShifter.StardewValleyExpandedCP";
         private const string CP_NAMESPACE = "ContentPatcher";
         private const bool GALDORAN_GEM_MUSEUMSANITY = true;
 
@@ -27,7 +27,7 @@ namespace StardewArchipelago.GameModifications.CodeInjections.Modded
             //SVE Mod and Config entry
             var contentPatcherEntryType = AccessTools.TypeByName($"{CP_NAMESPACE}.modentry");
             var sveModEntryType = AccessTools.TypeByName($"{CP_NAMESPACE}.modentry");
-            var sveConfigType = AccessTools.TypeByName($"{CP_NAMESPACE}.Framework.ConfigField.{SVE_NAMESPACE}.ContentConfig");
+            var sveConfigType = AccessTools.TypeByName($"{SVE_NAMESPACE}.Config");
 
             // internal static Config Config;
             var configField = AccessTools.Field(sveModEntryType, "Config");
