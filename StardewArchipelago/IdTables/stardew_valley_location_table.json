@@ -22407,7 +22407,7 @@
         "Fishsanity: Starfish": {
             "code": 774721,
             "region": "Beach",
-            "tags": ["FISHSANITY", "GINGER_ISLAND"],
+            "tags": ["FISHSANITY"],
             "content_packs": ["Ginger Island (Vanilla)", "Stardew Valley Expanded"]
         },
         "Fishsanity: Torpedo Trout": {
@@ -22917,7 +22917,7 @@
         "Shipsanity: Starfish": {
             "code": 775079,
             "region": "Shipping",
-            "tags": ["GINGER_ISLAND", "SHIPSANITY", "SHIPSANITY_FISH"],
+            "tags": ["SHIPSANITY", "SHIPSANITY_FISH"],
             "content_packs": ["Ginger Island (Vanilla)", "Stardew Valley Expanded"]
         },
         "Shipsanity: Swirl Stone": {
@@ -24017,6 +24017,672 @@
             "region": "Shipping",
             "tags": ["SHIPSANITY"],
             "content_packs": ["Archaeology", "Stardew Valley Expanded"]
+        },
+        "Drink Aegis Elixir": {
+            "code": 776015,
+            "region": "Farm",
+            "tags": ["EATSANITY","EATSANITY_SHOP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Aged Blue Moon Wine": {
+            "code": 776016,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_SHOP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Alligator": {
+            "code": 776017,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Ancient Fiber": {
+            "code": 776018,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Armor Elixir": {
+            "code": 776019,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Arrowhead Shark": {
+            "code": 776020,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Baby Lunaloo": {
+            "code": 776021,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Baked Berry Oatmeal": {
+            "code": 776022,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Baked Potato": {
+            "code": 776023,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Barbarian Elixir": {
+            "code": 776024,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_SHOP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Barred Knifejaw": {
+            "code": 776025,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Bearberry": {
+            "code": 776026,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Big Bark Burger": {
+            "code": 776027,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Birch Water": {
+            "code": 776028,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Bombardier Elixir": {
+            "code": 776029,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Blue Moon Wine": {
+            "code": 776030,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_SHOP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Blue Tang": {
+            "code": 776031,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Bonefish": {
+            "code": 776032,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Bull Trout": {
+            "code": 776033,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Butter": {
+            "code": 776034,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Butterfish": {
+            "code": 776035,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Butternut Squash": {
+            "code": 776036,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Candy": {
+            "code": 776037,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Cheese Charcuterie": {
+            "code": 776038,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Chocolate Truffle Bar": {
+            "code": 776039,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Clownfish": {
+            "code": 776040,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Cucumber": {
+            "code": 776041,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Daggerfish": {
+            "code": 776042,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Dewdrop Berry": {
+            "code": 776043,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Dulse Seaweed": {
+            "code": 776044,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Ferngill Primrose": {
+            "code": 776045,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Fiber Goby": {
+            "code": 776046,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Fish Dumpling": {
+            "code": 776047,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Flower Cookie": {
+            "code": 776048,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Frog": {
+            "code": 776049,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Frog Legs": {
+            "code": 776050,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Gar": {
+            "code": 776051,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Gingerbread Man": {
+            "code": 776052,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Glazed Butterfish": {
+            "code": 776053,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Glazed Pear": {
+            "code": 776054,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Gold Carrot": {
+            "code": 776055,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Golden Goose Egg": {
+            "code": 776056,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Goldenfish": {
+            "code": 776057,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Goldenrod": {
+            "code": 776058,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Goldfish": {
+            "code": 776059,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Goose Egg": {
+            "code": 776060,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Goose Mayonnaise": {
+            "code": 776061,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Grampleton Orange Chicken": {
+            "code": 776062,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Grass Carp": {
+            "code": 776063,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Gravity Elixir": {
+            "code": 776064,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Green Mushroom": {
+            "code": 776065,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Grilled Cheese Sandwich": {
+            "code": 776066,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Haste Elixir": {
+            "code": 776067,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Hero Elixir": {
+            "code": 776068,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Highlands Bass": {
+            "code": 776069,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Honey Jar": {
+            "code": 776070,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Ice Cream Sundae": {
+            "code": 776071,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat King Salmon": {
+            "code": 776072,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Kittyfish": {
+            "code": 776073,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Lightning Elixir": {
+            "code": 776074,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Lunaloo": {
+            "code": 776075,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Marsh Tonic": {
+            "code": 776076,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Mega Purple Mushroom": {
+            "code": 776077,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_ARTISAN"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Minnow": {
+            "code": 776078,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Mixed Berry Pie": {
+            "code": 776079,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Monster Fruit": {
+            "code": 776080,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Monster Mushroom": {
+            "code": 776081,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Mushroom Berry Rice": {
+            "code": 776082,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Mushroom Colony": {
+            "code": 776083,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Nectarine": {
+            "code": 776084,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Nectarine Fruit Bread": {
+            "code": 776085,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Ocean Sunfish": {
+            "code": 776086,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Pear": {
+            "code": 776087,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Persimmon": {
+            "code": 776088,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Pineapple Custard Crepe": {
+            "code": 776089,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Puppyfish": {
+            "code": 776090,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Primsatic Pop": {
+            "code": 776091,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Ramen": {
+            "code": 776092,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Salal Berry": {
+            "code": 776093,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Sea Sponge": {
+            "code": 776094,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Seahorse": {
+            "code": 776095,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Seaweed Salad": {
+            "code": 776096,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Seed Cookie": {
+            "code": 776097,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Shark": {
+            "code": 776098,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Snatcher Worm": {
+            "code": 776099,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Drink Sports Drink": {
+            "code": 776100,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_SHOP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Stamina Capsule": {
+            "code": 776101,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_SHOP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Stuffed Persimmon": {
+            "code": 776102,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Swamp Crab": {
+            "code": 776103,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Sweet Potato": {
+            "code": 776104,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Tadpole": {
+            "code": 776105,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Thistle": {
+            "code": 776106,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Vegan Cone": {
+            "code": 776107,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Void Delight": {
+            "code": 776108,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Void Salmon Sushi": {
+            "code": 776109,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_COOKING"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Water Grub": {
+            "code": 776110,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Winter Star Rose": {
+            "code": 776111,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Wolf Snapper": {
+            "code": 776112,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Diamond Carp": {
+            "code": 776113,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Meteor Carp": {
+            "code": 776114,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Poison Mushroom": {
+            "code": 776115,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP", "EATSANITY_POISONOUS"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Radioactive Bass": {
+            "code": 776116,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Red Baneberry": {
+            "code": 776117,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP", "EATSANITY_POISONOUS"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Shiny Lunaloo": {
+            "code": 776118,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Slime Berry": {
+            "code": 776119,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP", "EATSANITY_POISONOUS", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Starfish": {
+            "code": 776120,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Torpedo Trout": {
+            "code": 776121,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Undeadfish": {
+            "code": 776122,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Viper Eel": {
+            "code": 776123,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS", "GINGER_ISLAND"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Void Eel": {
+            "code": 776124,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_FISH", "EATSANITY_POISONOUS"],
+            "content_packs": ["Stardew Valley Expanded"]
+        },
+        "Eat Void Root": {
+            "code": 776125,
+            "region": "Farm",
+            "tags": ["EATSANITY", "EATSANITY_CROP", "EATSANITY_POISONOUS"],
+            "content_packs": ["Stardew Valley Expanded"]
         }
     }
 }

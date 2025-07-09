@@ -117,9 +117,9 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
             }
             if (_archipelago.SlotData.Mods.HasMod(ModNames.SVE))
             {
-                AddCheckToStock(checksToAdd, BUILDING_WINERY, 500_000, new[] { IridiumBar(25), Hardwood(200), Keg(30) });
-                AddCheckToStock(checksToAdd, BUILDING_PREMIUM_BARN, 250_000, new[] { FirWax(30), Hardwood(200), Stone(950) });
-                AddCheckToStock(checksToAdd, BUILDING_PREMIUM_COOP, 200_000, new[] { FirWax(20), Hardwood(125), Stone(600) });
+                AddCheckToStock(checksToAdd, BUILDING_WINERY, 500_000, new[] { IridiumBar(25), Hardwood(200), Keg(30) });//, GetWineryWineShippedCondition()); //I'll come back to this later.
+                AddCheckToStock(checksToAdd, BUILDING_PREMIUM_BARN, 250_000, new[] { FirWax(30), Hardwood(200), Stone(950) }, GetBuildingRequirementCondition(BUILDING_DELUXE_BARN));
+                AddCheckToStock(checksToAdd, BUILDING_PREMIUM_COOP, 200_000, new[] { FirWax(20), Hardwood(125), Stone(600) }, GetBuildingRequirementCondition(BUILDING_DELUXE_COOP));
             }
             if (_archipelago.SlotData.IncludeEndgameLocations)
             {
@@ -187,6 +187,11 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
             var queryForThisBuilding = GameStateConditionProvider.CreateHasBuildingOrHigherCondition(requiredBuilding, true);
             return queryForThisBuilding;
         }
+
+        //private static bool GetWineryWineShippedCondition()  // wine is ID 348, also holy shit it's 500 wine shipped not 200 in the original mod
+        //{                                                      // gift event is 8402752/s, maybe just require seeing this event?
+        //    var wineShipped = new int
+        //}
 
         private string GetMaterialString(ISalable material, double priceMultiplier)
         {
