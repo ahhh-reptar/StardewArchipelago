@@ -188,10 +188,14 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
             return queryForThisBuilding;
         }
 
-        //private static bool GetWineryWineShippedCondition()  // wine is ID 348, also holy shit it's 500 wine shipped not 200 in the original mod
-        //{                                                      // gift event is 8402752/s, maybe just require seeing this event?
-        //    var wineShipped = new int
-        //}
+        private static bool GetWineryWineShippedCondition()  // wine is ID 348, also holy shit it's 500 wine shipped not 200 in the original mod
+        {                                                      // gift event is 8402752/s, maybe just require seeing this event?
+            var wineShipped = Game1.player.basicShipped.ContainsKey("348") ? Game1.player.basicShipped["348"] : 0;
+            if (wineShipped >= 500)
+            {
+                return true;
+            }
+        }
 
         private string GetMaterialString(ISalable material, double priceMultiplier)
         {

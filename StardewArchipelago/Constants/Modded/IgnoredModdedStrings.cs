@@ -8,7 +8,7 @@ namespace StardewArchipelago.Constants.Modded
         public static readonly List<string> FriendsNotMetImmediately = new()
         {
             "Yoba", "Lance", "Apples", "Scarlett", "Morgan", "Zic", "Alecto", "Gunther",
-            "Marlon", "Gregory",
+            "Marlon", "Gregory","Henchman",
         };
 
         public static readonly List<string> Shipments = new()
