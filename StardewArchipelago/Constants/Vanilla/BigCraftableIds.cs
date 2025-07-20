@@ -2,6 +2,7 @@
 {
     public static class BigCraftableIds
     {
+        public const string KEG = "12";
         public const string STONE_JUNIMO = "55";
         public const string GOLD_LEWIS = "164";
         public const string MINI_SHIPPING_BIN = "248";

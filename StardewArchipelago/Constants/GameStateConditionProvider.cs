@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using StardewArchipelago.Constants.Locations;
+using StardewValley;
 
 namespace StardewArchipelago.Constants
 {
@@ -65,6 +66,11 @@ namespace StardewArchipelago.Constants
             }
 
             return ConcatenateConditions(noBuildingConditions, hasBuilding);
+        }
+
+        public static string CreateHasShippedItemAmountCondition(string item, int required)
+        {
+            return $"PLAYER_SHIPPED_BASIC_ITEM Current {item} {required}";
         }
 
         public static string GetReceivedBuildingCondition(string buildingName)
