@@ -598,6 +598,11 @@ namespace StardewArchipelago.Stardew
                     _cookingRecipesByName.Add(NameAliases.RecipeNameAliases[recipe.RecipeName], recipe);
                 }
 
+                if (ModNameAliases.CookingRecipeNameAliases.ContainsKey(recipe.RecipeName))
+                {
+                    _cookingRecipesByName.Add(ModNameAliases.CookingRecipeNameAliases[recipe.RecipeName], recipe);
+                }
+
                 if (!string.IsNullOrWhiteSpace(recipe.YieldItem?.Name) && !_cookingRecipesByName.ContainsKey(recipe.YieldItem.Name))
                 {
                     _cookingRecipesByName.Add(recipe.YieldItem.Name, recipe);
@@ -618,6 +623,11 @@ namespace StardewArchipelago.Stardew
             foreach (var (recipeName, recipeInfo) in allCraftingInformation)
             {
                 var recipe = ParseStardewCraftingRecipeData(recipeName, recipeInfo);
+
+                if (ModNameAliases.CraftingRecipeNameAliases.ContainsKey(recipe.RecipeName))
+                {
+                    _craftingRecipesByName.Add(ModNameAliases.CraftingRecipeNameAliases[recipe.RecipeName], recipe);
+                }
 
                 if (_craftingRecipesByName.ContainsKey(recipe.RecipeName))
                 {
