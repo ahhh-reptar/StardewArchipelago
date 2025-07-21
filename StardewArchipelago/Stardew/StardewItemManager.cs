@@ -5,6 +5,7 @@ using System.Linq;
 using KaitoKid.ArchipelagoUtilities.Net.Interfaces;
 using Microsoft.Xna.Framework.Content;
 using Newtonsoft.Json;
+using StardewArchipelago.Constants.Modded;
 using StardewArchipelago.Constants.Vanilla;
 using StardewValley;
 using StardewValley.GameData.BigCraftables;
