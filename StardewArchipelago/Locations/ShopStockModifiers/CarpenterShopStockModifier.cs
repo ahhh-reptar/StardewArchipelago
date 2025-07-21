@@ -117,7 +117,7 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
             }
             if (_archipelago.SlotData.Mods.HasMod(ModNames.SVE))
             {
-                AddCheckToStock(checksToAdd, BUILDING_WINERY, 500_000, new[] { IridiumBar(25), Hardwood(200), Keg(30) }, GetItemShippedAmountCondition("348", 500));
+                AddCheckToStock(checksToAdd, BUILDING_WINERY, 500_000, new[] { IridiumBar(25), Hardwood(200), Keg(30) }, GetItemShippedAmountCondition(ObjectIds.WINE, 500));
                 AddCheckToStock(checksToAdd, BUILDING_PREMIUM_BARN, 250_000, new[] { FirWax(30), Hardwood(200), Stone(950) }, GetBuildingRequirementCondition(BUILDING_DELUXE_BARN));
                 AddCheckToStock(checksToAdd, BUILDING_PREMIUM_COOP, 200_000, new[] { FirWax(20), Hardwood(125), Stone(600) }, GetBuildingRequirementCondition(BUILDING_DELUXE_COOP));
             }
