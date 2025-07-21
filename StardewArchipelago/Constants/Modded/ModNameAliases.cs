@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace StardewArchipelago.Constants.Vanilla
+namespace StardewArchipelago.Constants.Modded
 {
     public static class ModNameAliases
     {
