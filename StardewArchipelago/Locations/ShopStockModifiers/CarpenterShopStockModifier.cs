@@ -260,22 +260,22 @@ namespace StardewArchipelago.Locations.ShopStockModifiers
             return StardewObject(ObjectIds.BATTERY_PACK, amount);
         }
 
+        private static Item Keg(int amount)
+        {
+            return StardewItem(QualifiedItemIds.KEG, amount);
+        }
+
+        private static Item FirWax(int amount)
+        {
+            return StardewObject(ModItemIds.FIR_WAX, amount);
+        }
+
         private static Item StardewObject(string objectId, int amount)
         {
             return ItemRegistry.Create<Object>(objectId, amount);
         }
 
-        private static Item Keg(int amount)
-        {
-            return StardewObject(12, amount);
-        }
-
-        private static Item FirWax(int amount)
-        {
-            return new Object("FlashShifter.StardewValleyExpandedCP_Fir_Wax", amount);
-        }
-
-        private static Item StardewObject(int id, int amount)
+        private static Item StardewItem(string qualifiedObjectId, int amount)
         {
             return ItemRegistry.Create(qualifiedObjectId, amount);
         }

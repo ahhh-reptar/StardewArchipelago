@@ -150,6 +150,7 @@ namespace StardewArchipelago.Constants.Vanilla
         public static readonly string JOURNAL_SCRAP = QualifiedObjectId(ObjectIds.JOURNAL_SCRAP);
         public static readonly string JUNIMO_PLUSH = QualifiedFurnitureId(FurnitureIds.JUNIMO_PLUSH);
         public static readonly string KALE_SEEDS = QualifiedObjectId(ObjectIds.KALE_SEEDS);
+        public static readonly string KEG = QualifiedObjectId(BigCraftableIds.KEG);
         public static readonly string LARGE_BROWN_EGG = QualifiedObjectId(ObjectIds.LARGE_BROWN_EGG);
         public static readonly string LARGE_GOAT_MILK = QualifiedObjectId(ObjectIds.LARGE_GOAT_MILK);
         public static readonly string LARGE_MILK = QualifiedObjectId(ObjectIds.LARGE_MILK);
