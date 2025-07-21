@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using StardewArchipelago.Constants.Modded;
 using StardewArchipelago.Constants.Vanilla;
 using StardewValley;
 using StardewValley.Locations;
@@ -36,7 +37,7 @@ namespace StardewArchipelago.Locations.CodeInjections.Vanilla.Relationship
                 var datable = npcData.CanBeRomanced;
                 var spawnLocation = npcData.HomeRegion;
                 var spawnsOnIsland = IsIslandLocation(spawnLocation);
-                var apName = NameAliases.NPCNameAliases.ContainsKey(name) ? NameAliases.NPCNameAliases[name] : name;
+                var apName = ModNameAliases.NPCNameAliases.ContainsKey(name) ? ModNameAliases.NPCNameAliases[name] : name;
 
                 var friend = new ArchipelagoFriend(name, apName, datable, false, spawnsOnIsland, name.Contains("Dwarf"), false);
                 _friends.Add(friend);

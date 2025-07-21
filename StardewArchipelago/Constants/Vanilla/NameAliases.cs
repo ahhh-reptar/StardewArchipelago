@@ -26,16 +26,5 @@ namespace StardewArchipelago.Constants.Vanilla
             { "Cran. Sauce", "Cranberry Sauce" },
             { "Vegetable Stew", "Vegetable Medley" },
         };
-
-        public static Dictionary<string, string> NPCNameAliases = new()
-        {
-            { "MisterGinger", "Mr. Ginger" },
-            { "MarlonFay", "Marlon" },
-            { "GuntherSilvian", "Gunther" },
-            { "MorrisTod", "Morris" },
-            { "Aimon111.WitchSwampOverhaulCP_GoblinZic", "Zic" },
-            { "ichortower.HatMouseLacey_Lacey", "Lacey" },
-            { "SPB_Alec", "Alec" },
-        };
     }
 }
