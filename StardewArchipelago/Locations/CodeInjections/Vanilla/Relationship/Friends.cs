@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using StardewArchipelago.Constants.Modded;
-using StardewArchipelago.Constants.Vanilla;
 using StardewValley;
 using StardewValley.Locations;
 
